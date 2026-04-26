@@ -19,7 +19,7 @@ def receive(listbox):
 #Root Window
 root = Tk()
 
-#Input Buttom
+#Input Button
 entry = Entry()
 entry.pack(side=BOTTOM)
 
