@@ -23,7 +23,7 @@ listBox.pack()
 button = Button(root,text="Send",command=lambda: send(listBox,entry))
 button.pack(side=BOTTOM)
 
-rbutton = Button(root,text="Receive",command=lambda: send(listBox))
+rbutton = Button(root,text="Receive",command=lambda: receive(listBox))
 rbutton.pack(side=BOTTOM)
 root.title('Client')
 
